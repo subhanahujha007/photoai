@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 
 import User from "../user.schema";
-import { connectToDatabase } from "../mongoose.js";
+import { connectToDatabase } from "../mongoose";
 import { handleError } from "../utils";
 
 // CREATE
